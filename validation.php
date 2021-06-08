@@ -17,7 +17,6 @@
    fwrite($log, $jsonMpesaResponse);
    fclose($log);
   
-
   echo $response;
 
 

@@ -5,7 +5,6 @@
   curl_setopt($curl, CURLOPT_URL, $url);
   curl_setopt($curl, CURLOPT_HTTPHEADER, array('Content-Type:application/json','Authorization:Bearer ACCESS_TOKEN')); //setting custom header
   
-  
   $curl_post_data = array(
     //Fill in the request parameters with valid values
     'ShortCode' => '60502',
